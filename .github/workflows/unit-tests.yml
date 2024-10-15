@@ -3,24 +3,24 @@ name: Run Unit Tests
 on:
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   unit-tests:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Check out repository
+        uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y gcc libcunit1-dev
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18' 
 
-    - name: Build the project
-      run: |
-        gcc test.c -o test-calc -l cunit
+      - name: Install dependencies
+        run: npm install
 
-    - name: Run unit tests
-      run: ./test-calc
+      - name: Run unit tests
+        run: npm test
+
