@@ -28,6 +28,6 @@ jobs:
           context: .
           push: true
           tags: |
-            your-docker-username/your-image-name:${{ github.sha }}
-            your-docker-username/your-image-name:latest
+            Ihor-Riabokon1/your-image-name:${{ github.sha }}
+            Ihor-Riabokon1/your-image-name:latest
 
