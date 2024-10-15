@@ -1,6 +1,6 @@
 # Simple calc
 
-## Usage
+## Usage1
 
 Run the binary with three arguments:
 ```sh
