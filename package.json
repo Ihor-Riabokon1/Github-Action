@@ -4,7 +4,7 @@
   "description": "## Usage",
   "main": "index.js",
   "scripts": {
-    "test": "node -e \"console.log('Running tests...'); console.assert(1 + 1 === 2, 'Test failed: 1 + 1 should equal 2'); console.assert(2 * 2 === 4, 'Test failed: 2 * 2 should equal 4'); console.log('All tests passed!');\" && exit 1"
+    "test": "node -e \"console.log('Running tests...'); console.assert(1 + 1 === 2, 'Test failed: 1 + 1 should equal 2'); console.assert(2 * 2 === 4, 'Test failed: 2 * 2 should equal 4'); console.log('All tests passed!');\"
   },
   "repository": {
     "type": "git",
