@@ -20,7 +20,7 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -t riabokon11620/calculator  :${{ github.sha }} .
-
+          
       - name: Run e2e tests
         run: |
           npm run e2e
