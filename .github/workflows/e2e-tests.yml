@@ -19,7 +19,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t your-docker-username/your-image-name:${{ github.sha }} .
+          docker build -t riabokon11620/calculator:${{ github.sha }} .
 
       - name: Run e2e tests
         run: |
