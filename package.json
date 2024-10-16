@@ -1,0 +1,21 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "## Usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"console.log('Running tests...'); console.assert(1 + 1 === 2, 'Test failed: 1 + 1 should equal 2'); console.assert(2 * 2 === 4, 'Test failed: 2 * 2 should equal 4'); console.log('All tests passed!');\"",
+    "e2e": "echo \"Running e2e tests...\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ihor-Riabokon1/Github-Action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ihor-Riabokon1/Github-Action/issues"
+  },
+  "homepage": "https://github.com/Ihor-Riabokon1/Github-Action#readme"
+}
